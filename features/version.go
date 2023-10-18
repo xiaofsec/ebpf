@@ -1,6 +1,6 @@
 package features
 
-import "github.com/cilium/ebpf/internal"
+import "github.com/xiaofsec/ebpf/internal"
 
 // LinuxVersionCode returns the version of the currently running kernel
 // as defined in the LINUX_VERSION_CODE compile-time macro. It is represented

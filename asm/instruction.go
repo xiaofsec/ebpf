@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/internal/sys"
+	"github.com/xiaofsec/ebpf/internal/unix"
 )
 
 // InstructionSize is the size of a BPF instruction in bytes

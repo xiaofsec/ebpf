@@ -4,8 +4,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/sysenc"
+	"github.com/xiaofsec/ebpf/internal/sys"
+	"github.com/xiaofsec/ebpf/internal/sysenc"
 	qt "github.com/frankban/quicktest"
 )
 

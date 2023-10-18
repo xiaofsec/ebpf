@@ -1,8 +1,8 @@
 package ebpf
 
 import (
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/internal/sys"
+	"github.com/xiaofsec/ebpf/internal/unix"
 )
 
 //go:generate go run golang.org/x/tools/cmd/stringer@latest -output types_string.go -type=MapType,ProgramType,PinType

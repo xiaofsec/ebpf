@@ -1,6 +1,6 @@
 contact_links:
   - name: Questions
-    url: https://github.com/cilium/ebpf/discussions/categories/q-a
+    url: https://github.com/xiaofsec/ebpf/discussions/categories/q-a
     about: Please ask and answer questions here.
   - name: Slack
     url: https://cilium.slack.com/messages/ebpf-go

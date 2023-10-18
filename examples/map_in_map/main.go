@@ -10,8 +10,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf"
+	"github.com/xiaofsec/ebpf/rlimit"
 )
 
 const BPF_F_INNER_MAP = 0x1000

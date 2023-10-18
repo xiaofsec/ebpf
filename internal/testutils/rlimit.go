@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf/rlimit"
 )
 
 func init() {

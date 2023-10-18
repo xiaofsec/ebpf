@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf"
+	"github.com/xiaofsec/ebpf/link"
+	"github.com/xiaofsec/ebpf/rlimit"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go bpf cgroup_skb.c -- -I../headers
+//go:generate go run github.com/xiaofsec/ebpf/cmd/bpf2go bpf cgroup_skb.c -- -I../headers
 
 func main() {
 	// Allow the current process to lock memory for eBPF resources.

@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/xiaofsec/ebpf/internal"
 	qt "github.com/frankban/quicktest"
-	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/xiaofsec/go-cmp/cmp/cmpopts"
 )
 
 type testcase struct {

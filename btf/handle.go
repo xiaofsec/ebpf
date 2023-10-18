@@ -7,9 +7,9 @@ import (
 	"math"
 	"os"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/internal"
+	"github.com/xiaofsec/ebpf/internal/sys"
+	"github.com/xiaofsec/ebpf/internal/unix"
 )
 
 // Handle is a reference to BTF loaded into the kernel.

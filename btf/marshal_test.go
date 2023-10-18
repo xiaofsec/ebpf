@@ -6,9 +6,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/google/go-cmp/cmp"
+	"github.com/xiaofsec/ebpf/internal"
+	"github.com/xiaofsec/ebpf/internal/testutils"
+	"github.com/xiaofsec/go-cmp/cmp"
 
 	qt "github.com/frankban/quicktest"
 )

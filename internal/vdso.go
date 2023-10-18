@@ -10,7 +10,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/internal/unix"
 )
 
 var (

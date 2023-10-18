@@ -24,13 +24,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/ringbuf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf/internal"
+	"github.com/xiaofsec/ebpf/link"
+	"github.com/xiaofsec/ebpf/ringbuf"
+	"github.com/xiaofsec/ebpf/rlimit"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -type event bpf tcprtt.c -- -I../headers
+//go:generate go run github.com/xiaofsec/ebpf/cmd/bpf2go -type event bpf tcprtt.c -- -I../headers
 
 func main() {
 	stopper := make(chan os.Signal, 1)

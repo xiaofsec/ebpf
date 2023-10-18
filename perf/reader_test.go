@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/testutils/fdtrace"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf"
+	"github.com/xiaofsec/ebpf/asm"
+	"github.com/xiaofsec/ebpf/internal"
+	"github.com/xiaofsec/ebpf/internal/testutils"
+	"github.com/xiaofsec/ebpf/internal/testutils/fdtrace"
+	"github.com/xiaofsec/ebpf/internal/unix"
 
 	qt "github.com/frankban/quicktest"
 )

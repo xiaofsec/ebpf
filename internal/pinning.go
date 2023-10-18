@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/internal/sys"
+	"github.com/xiaofsec/ebpf/internal/unix"
 )
 
 func Pin(currentPath, newPath string, fd *sys.FD) error {

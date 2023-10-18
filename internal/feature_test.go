@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils/fdtrace"
+	"github.com/xiaofsec/ebpf/internal/testutils/fdtrace"
 )
 
 func TestMain(m *testing.M) {

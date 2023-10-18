@@ -10,7 +10,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/xiaofsec/ebpf/internal"
 )
 
 // Marshal turns data into a byte slice using the system's native endianness.

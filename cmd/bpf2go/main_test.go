@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/google/go-cmp/cmp"
+	"github.com/xiaofsec/go-cmp/cmp"
 )
 
 func TestRun(t *testing.T) {

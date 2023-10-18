@@ -3,7 +3,7 @@ package examples
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf"
+	"github.com/xiaofsec/ebpf"
 )
 
 func DocLoadCollectionSpec() {

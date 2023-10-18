@@ -148,9 +148,9 @@ go: to add module requirements and sums:
 We also need to manually add a dependency on `bpf2go` since it's not explicitly
 imported by a `.go` source file:
 
-```{ .shell-session data-copy="go get github.com/cilium/ebpf/cmd/bpf2go" }
-% go get github.com/cilium/ebpf/cmd/bpf2go
-go: added github.com/cilium/ebpf v0.11.0
+```{ .shell-session data-copy="go get github.com/xiaofsec/ebpf/cmd/bpf2go" }
+% go get github.com/xiaofsec/ebpf/cmd/bpf2go
+go: added github.com/xiaofsec/ebpf v0.11.0
 go: added golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2
 go: added golang.org/x/sys v0.6.0
 ```
@@ -260,7 +260,7 @@ eBPF can do and how it works.
 
 With XDP, we've only barely scratched the surface of eBPF's many use cases and
 applications. For more easily-accessible examples, see [the main repository's
-examples/ folder](https://github.com/cilium/ebpf/tree/main/examples). It
+examples/ folder](https://github.com/xiaofsec/ebpf/tree/main/examples). It
 demonstrates use cases like tracing user space applications, extracting
 information from the kernel, attaching eBPF programs to network sockets and
 more.

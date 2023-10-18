@@ -8,7 +8,7 @@
 
 ![Honeygopher](ebpf-go.png){ align=right width="180" }
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/cilium/ebpf)](https://pkg.go.dev/github.com/cilium/ebpf)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/xiaofsec/ebpf)](https://pkg.go.dev/github.com/xiaofsec/ebpf)
 
 :ebpf-go: {{ proj }} is a Go library for working with :ebee-color: eBPF. It does
 not depend on C, libbpf, or any other Go libraries other than the standard
@@ -24,7 +24,7 @@ To add {{ proj }} as a dependency to an existing Go module, run this from within
 the module's directory:
 
 ```
-go get github.com/cilium/ebpf
+go get github.com/xiaofsec/ebpf
 ```
 
 ## Target Audience
@@ -39,5 +39,5 @@ eBPF introduction at :ebee-color: ebpf.io](https://ebpf.io/what-is-ebpf).
 ## Examples
 
 Discover [projects using {{ proj }} here](users.md). The repository contains an
-[examples/ directory](https://github.com/cilium/ebpf/tree/main/examples) with
+[examples/ directory](https://github.com/xiaofsec/ebpf/tree/main/examples) with
 minimal demo applications that can be tested on any supported Linux machine.
