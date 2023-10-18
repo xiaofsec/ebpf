@@ -31,7 +31,7 @@ def define_env(env: MacrosPlugin):
     )
     godoc_url: ParseResult = urlparse(
         env.variables.get(
-            "godoc_url", "https://pkg.go.dev/github.com/cilium/ebpf"
+            "godoc_url", "https://pkg.go.dev/github.com/xiaofsec/ebpf"
         )
     )
 

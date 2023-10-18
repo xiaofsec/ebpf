@@ -31,16 +31,16 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/ringbuf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf"
+	"github.com/xiaofsec/ebpf/internal"
+	"github.com/xiaofsec/ebpf/link"
+	"github.com/xiaofsec/ebpf/ringbuf"
+	"github.com/xiaofsec/ebpf/rlimit"
 
 	"golang.org/x/sys/unix"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -tags "linux" -type rtt_event bpf tcprtt_sockops.c -- -I../headers
+//go:generate go run github.com/xiaofsec/ebpf/cmd/bpf2go -tags "linux" -type rtt_event bpf tcprtt_sockops.c -- -I../headers
 
 func main() {
 	stopper := make(chan os.Signal, 1)

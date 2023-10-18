@@ -3,7 +3,7 @@ package link
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf"
+	"github.com/xiaofsec/ebpf"
 )
 
 // XDPAttachFlags represents how XDP program will be attached to interface.

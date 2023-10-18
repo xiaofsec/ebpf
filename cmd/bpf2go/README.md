@@ -9,7 +9,7 @@ from `bpftool gen skeleton`.
 
 Invoke the program using go generate:
 
-    //go:generate go run github.com/cilium/ebpf/cmd/bpf2go foo path/to/src.c -- -I/path/to/include
+    //go:generate go run github.com/xiaofsec/ebpf/cmd/bpf2go foo path/to/src.c -- -I/path/to/include
 
 This will emit `foo_bpfel.go` and `foo_bpfeb.go`, with types using `foo`
 as a stem. The two files contain compiled BPF for little and big

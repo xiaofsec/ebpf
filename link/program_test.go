@@ -3,8 +3,8 @@ package link
 import (
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/xiaofsec/ebpf"
+	"github.com/xiaofsec/ebpf/internal/testutils"
 )
 
 func TestProgramAlter(t *testing.T) {

@@ -16,7 +16,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cilium/ebpf"
+	"github.com/xiaofsec/ebpf"
 )
 
 const helpText = `Usage: %[1]s [options] <ident> <source file> [-- <C flags>]

@@ -6,7 +6,7 @@ problems using eBPF.
 
 A live list of package importers can be found at [:fontawesome-brands-golang: {{
 proj }} package
-importers](https://pkg.go.dev/github.com/cilium/ebpf?tab=importedby). If you'd
+importers](https://pkg.go.dev/github.com/xiaofsec/ebpf?tab=importedby). If you'd
 like to include a project on this page, feel free to open a pull request.
 
 [`Cilium`](https://github.com/cilium/cilium)
@@ -34,7 +34,7 @@ like to include a project on this page, feel free to open a pull request.
 :   A debugger for the Go programming language. Uses eBPF uprobes for tracing
     user space code execution.
 
-[`gVisor`](https://github.com/google/gvisor)
+[`gVisor`](https://github.com/xiaofsec/gvisor)
 
 :   gVisor relies on eBPF for implementing various forms of guest/workload
     isolation and security.

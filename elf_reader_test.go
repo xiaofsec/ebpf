@@ -12,13 +12,13 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/btf"
+	"github.com/xiaofsec/ebpf/internal"
+	"github.com/xiaofsec/ebpf/internal/testutils"
+	"github.com/xiaofsec/ebpf/internal/unix"
 
-	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/xiaofsec/go-cmp/cmp"
+	"github.com/xiaofsec/go-cmp/cmp/cmpopts"
 
 	qt "github.com/frankban/quicktest"
 )

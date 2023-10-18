@@ -3,7 +3,7 @@ package internal
 import (
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/xiaofsec/ebpf/internal/unix"
 )
 
 func FSType(path string) (int64, error) {

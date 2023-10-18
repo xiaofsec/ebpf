@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf/link"
+	"github.com/xiaofsec/ebpf/rlimit"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go bpf kprobe.c -- -I../headers
+//go:generate go run github.com/xiaofsec/ebpf/cmd/bpf2go bpf kprobe.c -- -I../headers
 
 const mapKey uint32 = 0
 

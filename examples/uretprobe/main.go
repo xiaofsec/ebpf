@@ -15,13 +15,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/perf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/xiaofsec/ebpf/link"
+	"github.com/xiaofsec/ebpf/perf"
+	"github.com/xiaofsec/ebpf/rlimit"
 	"golang.org/x/sys/unix"
 )
 
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -target amd64 -type event bpf uretprobe.c -- -I../headers
+//go:generate go run github.com/xiaofsec/ebpf/cmd/bpf2go -target amd64 -type event bpf uretprobe.c -- -I../headers
 
 const (
 	// The path to the ELF binary containing the function to trace.

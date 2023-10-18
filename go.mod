@@ -1,10 +1,10 @@
-module github.com/cilium/ebpf
+module github.com/xiaofsec/ebpf
 
 go 1.20
 
 require (
 	github.com/frankban/quicktest v1.14.5
-	github.com/google/go-cmp v0.5.9
+	github.com/xiaofsec/go-cmp v0.5.9
 	golang.org/x/exp v0.0.0-20230224173230-c95f2b4c22f2
 	golang.org/x/sys v0.6.0
 )

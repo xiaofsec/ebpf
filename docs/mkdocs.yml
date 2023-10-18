@@ -3,7 +3,7 @@ site_description: Pure-Go library to read, modify and load eBPF programs and att
 site_author: Cilium Community
 
 # Rendered in header.
-repo_url: https://github.com/cilium/ebpf
+repo_url: https://github.com/xiaofsec/ebpf
 repo_name: cilium/ebpf
 edit_uri: edit/master/docs/ebpf/
 
@@ -75,17 +75,17 @@ nav:
   - 'BTF':
     - btf/index.md
   - 'Users': users.md
-  - 'Go Reference': https://pkg.go.dev/github.com/cilium/ebpf
+  - 'Go Reference': https://pkg.go.dev/github.com/xiaofsec/ebpf
   - 'GitHub':
-    - 'Repository': https://github.com/cilium/ebpf
-    - 'Issue Tracker': https://github.com/cilium/ebpf/issues
-    - 'Discussions': https://github.com/cilium/ebpf/discussions
+    - 'Repository': https://github.com/xiaofsec/ebpf
+    - 'Issue Tracker': https://github.com/xiaofsec/ebpf/issues
+    - 'Discussions': https://github.com/xiaofsec/ebpf/discussions
   - 'About': about.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/cilium/ebpf
+      link: https://github.com/xiaofsec/ebpf
 
 extra_css:
   - stylesheets/extra.css
